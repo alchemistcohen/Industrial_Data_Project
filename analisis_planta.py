@@ -4,9 +4,9 @@ import seaborn as sns
 from sqlalchemy import create_engine
 
 # 1. Configurar la conexión a PostgreSQL de forma segura con SQLAlchemy
-# Sintaxis: 'postgresql://usuario:contraseña@localhost:puerto/nombre_base_datos'
+
 USER = "postgres"
-PASSWORD = "12345678"  # <--- CAMBIA ESTO por tu contraseña de pgAdmin si es otra
+PASSWORD = "12345678"  
 HOST = "localhost"
 PORT = "5432"
 DB_NAME = "industrial_plant_db"

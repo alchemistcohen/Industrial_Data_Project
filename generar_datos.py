@@ -3,7 +3,7 @@ import numpy as np
 from sqlalchemy import create_engine
 from datetime import datetime, timedelta
 
-# Configuración de conexión (Asegúrate de que tu contraseña sea correcta)
+# Configuración de conexión 
 db_url = "postgresql://postgres:12345678@localhost:5432/industrial_plant_db"
 engine = create_engine(db_url)
 
